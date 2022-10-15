@@ -1,0 +1,92 @@
+
+  #course-row {
+	font-size: 20px;
+	font-weight: bolder; 
+	margin-left: -2%;
+  }
+  
+  #credit-row {
+	font-size: 20px;
+	font-weight: bolder;
+	margin-left: 13%;
+  }
+  
+  #grade-row {
+	font-size: 20px;
+	font-weight: bolder;
+	margin-left: 8%;
+  }
+  
+  .calculator-box {
+	width: 50%;
+	height: auto;
+	border: 2px solid #3D515C;
+	margin: 100px auto;
+
+  }
+
+  
+ .calculator-box h1 {
+	padding: 15px;
+	font-size: 40px;
+	text-align: center;
+	border: 1px solid #3D515C;
+	background-color: #3D515C;
+  }
+
+  
+  .calculator-box p{
+	padding: 20px;
+	font-size: 1rem;
+	color: black;
+	text-align: center;
+  }
+   
+  .calculator-box #course-wrapper, form {
+	color: black;
+	padding-left: 10px;
+	margin: 0 auto;
+	text-align: center;
+  }
+  .calculator-box input{
+	border: none;
+	padding: 15px;
+	margin: 10px;
+	border-radius: 5px;
+	width: 20%;
+	text-align: center;
+  }
+  .calculator-box select{
+	padding: 15px;
+	border: none;
+	border-radius: 7.5px;
+	width: 20%;
+
+  }
+#btx{
+	background-color: rgb(229, 78, 78);
+	height: 7vh;
+	width: 25vh;
+	font-size: 3vh;
+	border-radius: 5vh;
+  }
+
+  
+  .calculator-box .btn {
+	width: 100%;
+	padding: 10px;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+  }
+  .calculator-box .lastp {
+	border: 1px solid #3D515C;
+	background-color: #3D515C;
+  }
+  .calculator-box .lastp p {
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: bolder;
+  } 

@@ -1,0 +1,267 @@
+#wg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10vh;
+    margin-top: 50px;
+    height: 80vh;
+}
+.navbar-brand{
+    color: rgb(182, 15, 15);
+}
+.nav-item:hover{
+    color: red; 
+}
+.carousel-inner{
+    height: 90vh;
+    border-bottom-left-radius :5vh;
+    border-bottom-right-radius :5vh;
+    width: 50vh;
+}   
+
+
+#ue{
+       margin: 10vh;
+       font-weight: 900;
+       font-size: 10vh;
+       text-decoration: underline;
+       color: white;
+    color: rgb(217, 46, 3);
+        text-align: center;
+       
+}
+#logo{
+    height: 9vh;
+    margin-left: 2vh;
+    margin-right: 5vh;
+}
+#navcolor{color: rgb(255, 255, 255);}
+.nav-item{
+
+    font-size: 2.8vh;
+    
+    font-weight: 600;
+
+
+}
+
+a{
+    border-radius: 1vh;
+}
+#navbarSupportedContent{
+    margin-left: 5vh;
+
+}
+#navcolor:hover{
+
+   color: red;
+}
+#news{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 5vh;
+    justify-content: space-around;
+  
+
+}
+.list-group{
+    margin: 5vh;
+    
+    width: 75vh;
+}
+ul{
+    margin: 5vh;
+}
+.containercentered{
+    display: flex;
+    margin-left: 30vh;
+}
+.card-img-top{
+    border-radius: 40vh;
+}
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+.card-img-top{
+  
+    height: 45vh;
+}
+.list-group-item{
+    font-weight: 500;
+    font-size: 3vh;
+}
+.card-title{
+    text-align: center;
+    font-size: 4vh;
+    font-style: bold;
+}
+tbody{
+    font-size: 3vh;
+}
+.grade{
+    font-weight: 600;
+    color: red;
+}
+.subject{
+    color:green;
+    font-weight: 700;
+    
+}
+#details{
+    display: flex;
+    font-size: 6vh;
+
+    flex-direction: column;
+    font-weight: 800;
+    align-items: center;
+}
+#syllabus{
+    display: flex;
+    font-size: 8vh;
+    text-decoration: underline;
+    font-weight: 600;
+    justify-content: center;
+}
+#sub{
+    display: flex;
+    font-weight: 800;
+    color: rgb(251, 15, 15);
+    font-size: 10vh;
+    margin-top: 15vh;
+    justify-content: center;
+}
+.progress{
+    width: 30vh;
+}   
+.yt{
+    display: flex;
+        margin-top: 20vh;
+    
+    justify-content: space-around;
+}
+
+
+.month {
+  
+    width: 100%;
+    background: #fc1212;
+    text-align: center;
+  }
+  
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: white;
+    font-size: 8vh;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    font-size:  7vh;
+    color: #666;
+    text-align: center;
+  }
+  
+  .days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:4vh;
+    color: rgb(101, 96, 96);
+  }
+
+
+  
+  .days li .active {
+
+    background: #12aefc;
+    color: white ;
+ 
+  }
+  
+  .days li .exam {
+    padding: 5px;
+    background: #fc1212;
+    color: white 
+  }
+  .days li .holiday {
+    padding: 5px;
+    background: #12fc16;
+    color: white 
+  }
+.calendar{
+    margin-left: 25vh;
+    margin-right: 25vh;
+    
+}
+iframe{
+    margin-bottom: 10vh;
+}
+div.user{
+    display: flex;
+    color: green;
+    font-size: 10vh;
+ flex-direction: row;
+ justify-content: space-around;
+margin-top: 10vh;
+}
+#pic{
+    border-radius: 30vh;
+    height: 13vh;
+    width: 13vh;
+}
+#schedule{
+    margin-left: 65vh;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  
+  #footer{
+    height: 12vh;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+#footert{
+    font-size: 5vh;
+    font-weight: 800;
+    color: red;
+}
+#cgpat{
+    text-align: center;
+    margin-top: 5vh;
+    text-decoration: underline;
+    font-weight: 900;
+}
+.days :hover{
+    background-color: rgb(184, 71, 233);
+}
